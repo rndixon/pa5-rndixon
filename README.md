@@ -40,7 +40,7 @@ Your program must work for any file of the above format, and should determine th
 * Output to the user the average magnitude of the earthquakes in the file
 * Output to the user the number of earthquakes within a specific distance of a specific location. Distance is given by user as kilometers, and location is given by user as a latitude and longitude. You must calculate a distance between 2 points based on latitude and longitude.  The shortest distance between two given points P1=(lat1, lon1) and P2=(lat2, lon2) can be calculated using the formula distance = arccos(sin(lat1) * sin(lat2) + cos(lat1) * cos(lat2) * cos(lon1 - lon2)) * 6371. Note that one of these points comes from the file, and one of these points comes from the user, and if you just copy/paste this equation into Python it WILL NOT work. See requirements below about programming.
 
-Your program must allow the user to choose which of the above options they want to do, and after completing the chosen option, must allow the user to choose another (i.e. different) option or choose to end the program.
+Your program must allow the user to choose which of the above options they want to do, and after completing the chosen option, must allow the user to choose another (it could be the same) option or choose to end the program.
 
 Your program should have good error checking so that it doesn't crash. Some examples you need to consider: file name checking, try/except in file processing functions, and checking that input by the user is appropriate for the data they are supposed to be inputting (type or value).
 
